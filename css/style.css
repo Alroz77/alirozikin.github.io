@@ -5558,6 +5558,11 @@ button.bg-dark:focus {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important; }
 
+.bg-blur {
+  background: transparent;
+  backdrop-filter: blur(50px);
+}
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important; }
