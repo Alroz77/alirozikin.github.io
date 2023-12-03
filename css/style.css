@@ -356,7 +356,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 60%;
   font-weight: 400; }
 
 mark,
@@ -3754,9 +3754,9 @@ input[type="button"].btn-block {
     color: #fff; }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5); }
+  color: #a2a6b3 }
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-    color: rgba(255, 255, 255, 0.75); }
+    color: #6495ED }
   .navbar-dark .navbar-nav .nav-link.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
@@ -3764,7 +3764,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff; }
+  color: #6495ED; }
 
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -3776,9 +3776,9 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5); }
   .navbar-dark .navbar-text a {
-    color: #fff; }
+    color: #6495ED }
     .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-      color: #fff; }
+      color: #6495ED; }
 
 .card {
   position: relative;
@@ -5560,7 +5560,7 @@ button.bg-dark:focus {
 
 .bg-blur {
   background: transparent;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(10px);
 }
 
 @media (min-width: 576px) {
@@ -8299,12 +8299,12 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-item.active > a {
       color: #6495ED !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
-      color: #fff !important;
+      color: #6495ED !important;
       background: #6495ED;
       border: none !important; }
       .ftco-navbar-light.scrolled .nav-item.cta > a span {
         display: inline-block;
-        color: #fff !important; }
+        color: #6495ED !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
       border-color: #6495ED; }
     @media (max-width: 991.98px) {
@@ -8343,7 +8343,7 @@ h1, h2, h3, h4, h5,
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
-      color: #fff; }
+      color: #6495ED; }
 
 .navbar-brand {
   font-weight: 700;
