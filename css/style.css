@@ -5559,7 +5559,7 @@ button.bg-dark:focus {
   display: inline-flex !important; }
 
 .bg-blur {
-  background: transparent;
+  background: transparent !important;
   backdrop-filter: blur(10px);
 }
 
