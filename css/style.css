@@ -5559,14 +5559,13 @@ button.bg-dark:focus {
   display: inline-flex !important; }
 
 .nav-mobile {
-  background-color: transparent !important;
-  backdrop-filter: blur(2px) contrast(45%);
-  -webkit-backdrop-filter: blur(2px) contrast(45%);
+  background-color: rgba(0, 0, 0, 0.50) !important;
+  backdrop-filter: blur(10px) contrast(60%);
+  -webkit-backdrop-filter: blur(10px) contrast(60%);
   border-radius: 18px;
   margin-bottom: 24px;
   margin-left: 24px;
   margin-right: 24px;
-  /* box-shadow: 0px 0px 12px 0px #383d41; */
 }
 
 @media (min-width: 576px) {
