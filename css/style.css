@@ -5410,7 +5410,7 @@ button.bg-danger:focus {
   background-color: #bd2130 !important; }
 
 .bg-light {
-  background-color: #f8f9fa !important; }
+  background-color: #212529 !important; }
 
 a.bg-light:hover, a.bg-light:focus,
 button.bg-light:hover,
@@ -8618,7 +8618,7 @@ h1, h2, h3, h4, h5,
   max-width: 1180px; }
 
 .bg-light {
-  background: #f8f9fa !important; }
+  background: #212529 !important; }
 
 .bg-primary {
   background: #6495ED; }
