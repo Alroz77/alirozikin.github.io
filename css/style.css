@@ -3389,11 +3389,13 @@ input[type="button"].btn-block {
 .nav-tabs {
   border-bottom: 1px solid transparent; }
   .nav-tabs .nav-item {
-    margin-bottom: -1px; }
+    margin-bottom: -1px;
+    font-size: 24px; }
   .nav-tabs .nav-link {
     border: 1px solid transparent;
     border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem; }
+    border-top-right-radius: 0.25rem;
+     }
     .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
       border-color: transparent; }
     .nav-tabs .nav-link.disabled {
@@ -3409,6 +3411,32 @@ input[type="button"].btn-block {
     margin-top: -1px;
     border-top-left-radius: 0;
     border-top-right-radius: 0; }
+
+/* mobile tabs */
+    .nav-tabs-mobile {
+  border-bottom: 1px solid transparent; }
+  .nav-tabs-mobile .nav-item {
+    margin-bottom: -1px;
+	  width: min-content;
+	  font-size: 18px;
+    	}
+  .nav-tabs-mobile .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+     }
+    .nav-tabs-mobile .nav-link:hover, .nav-tabs-mobile .nav-link:focus {
+      border-color: transparent; }
+    .nav-tabs-mobile .nav-link.disabled {
+      color: #6c757d;
+      background-color: transparent;
+      border-color: transparent; }
+  .nav-tabs-mobile .nav-link.active,
+  .nav-tabs-mobile .nav-item.show .nav-link {
+    color: #6495ED;
+    border-bottom-color: #6495ED;
+    }
+
 
 .nav-pills .nav-link {
   border-radius: 0.25rem; }
@@ -5568,10 +5596,6 @@ button.bg-dark:focus {
   margin-right: 24px;
 }
 
-.nav-works {
-  border-radius: 18px;
-  margin-bottom: 24px;  
-}
 
 @media (min-width: 576px) {
   .d-sm-none {
@@ -5751,7 +5775,7 @@ button.bg-dark:focus {
   -ms-flex-direction: column-reverse !important;
   flex-direction: column-reverse !important; }
 
-.flex-wrap {
+ {
   -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important; }
 
@@ -8977,7 +9001,7 @@ textarea.form-control {
 .portfolio-wrap {
   display: block;
   width: 100%;
-  margin-bottom: 7em; }
+  margin-bottom: 4em; }
   .portfolio-wrap .text {
     position: relative; }
     .portfolio-wrap .text .subheading {
