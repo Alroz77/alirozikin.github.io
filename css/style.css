@@ -9677,6 +9677,7 @@ textarea.form-control {
   	-ms-transition: all .3s ease; /* Opera */
   	transition: all .3s ease;
   	position:relative;
+    border-radius: 12px;
 }
 
 .img-hover img:hover {
