@@ -101,23 +101,23 @@
 
    /* final countdown
     * ------------------------------------------------------ */
-    const ssFinalCountdown = function() {
+    $(document).ready(function() {
+        const ssFinalCountdown = function() {
+            const finalDate = '2024/12/12';
 
-        const finalDate = '2022/04/07';
+            $('.counter').countdown(finalDate)
+            .on('update.countdown finish.countdown', function(event) {
+                const str = '<div class=\"counter__time days\">%D&nbsp;<span>D</span></div>' +
+                            '<div class=\"counter__time hours\">%H&nbsp;<span>H</span></div>' +
+                            '<div class=\"counter__time minutes\">%M&nbsp;<span>M</span></div>' +
+                            '<div class=\"counter__time seconds\">%S&nbsp;<span>S</span></div>';
+                        
+                $(this).html(event.strftime(str));
+            });
+        };
 
-        $('.counter').countdown(finalDate)
-        .on('update.countdown finish.countdown', function(event) {
-
-            const str = '<div class=\"counter__time days\">%D&nbsp;<span>D</span></div>' +
-                        '<div class=\"counter__time hours\">%H&nbsp;<span>H</span></div>' +
-                        '<div class=\"counter__time minutes\">%M&nbsp;<span>M</span></div>' +
-                        '<div class=\"counter__time seconds\">%S&nbsp;<span>S</span></div>';
-                    
-            $(this).html(event.strftime(str));
-
-        });
-    };
-
+        ssFinalCountdown(); // Call the function
+    });
 
    /* tabs
     * ---------------------------------------------------- */ 
