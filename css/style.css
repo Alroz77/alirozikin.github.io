@@ -3413,13 +3413,18 @@ input[type="button"].btn-block {
     border-top-right-radius: 0; }
 
 /* mobile tabs */
-    .nav-tabs-mobile {
-  border-bottom: 1px solid transparent; }
+  .nav-tabs-mobile {
+  border-bottom: 1px solid #000000; }
   .nav-tabs-mobile .nav-item {
     margin-bottom: -1px;
-	  width: min-content;
-	  font-size: 18px;
-    	}
+	  /* width: min-content; */
+	  font-size: 16px;
+    float: left;	
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 30%;
+  }
   .nav-tabs-mobile .nav-link {
     border: 1px solid transparent;
     border-top-left-radius: 0.25rem;
@@ -5775,7 +5780,7 @@ button.bg-dark:focus {
   -ms-flex-direction: column-reverse !important;
   flex-direction: column-reverse !important; }
 
- {
+.flex-wrap{
   -ms-flex-wrap: wrap !important;
   flex-wrap: wrap !important; }
 
